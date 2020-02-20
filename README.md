@@ -6,7 +6,7 @@ It is mostly quickstart of google gmail script with simple query.
 
 ## Start up
 
-- You need to allow read rights to your gmail -> Step 1 from [google qickstart](https://developers.google.com/gmail/api/quickstart/python)
+- You need to allow read rights to your gmail -> Step 1 from [google quickstart](https://developers.google.com/gmail/api/quickstart/python)
 
 - Prepare your virtual environment in your working directory
 
