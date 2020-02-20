@@ -1,18 +1,29 @@
-## Liftago CLI for monthly spending
+# Liftago CLI for monthly spending
 
 Script check your gmail account and shows you how much you spend on liftago this month.
 
-It is mostly quickstart of google gmail script with simple query. 
+It is mostly quickstart of google gmail script with simple query.
 
-# Start up 
+## Start up
 
 - You need to allow read rights to your gmail -> Step 1 from [google qickstart](https://developers.google.com/gmail/api/quickstart/python)
 
-- in your working directory create virtual environment `virtualenv --python=python3.6 venv`
+- Prepare your virtual environment in your working directory
 
-- install needed libs `pip install -r requirements.txt`
+```bash
+python3 -m venv venv
 
-- create alias in your `vim ~/.bashrc` and add `alias lift='~/random_projects/liftago/venv/bin/python ~/random_projects/liftago/liftago.py'`
+source ./venv/bin/activate
 
-# Example 
+pip install -r requirements.txt
+```
+
+- create alias in your
+
+```bash
+echo 'alias lift="$HOME/Code/liftago_gmail_count/venv/bin/python $HOME/Code/liftago_gmail_count/liftago.py"' >> $HOME/.zshrc
+```
+
+## Example
+
 ![example](docs/example.png)
