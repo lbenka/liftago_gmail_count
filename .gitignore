@@ -64,3 +64,6 @@ id_rsa*
 client_secret.json
 
 .DS_Store
+
+credentials.json
+token.pickle
